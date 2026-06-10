@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#1a1a2e">
+
+    <TextView
+        android:text="AnimaFelis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:textColor="#e8b4f8"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:text="How are you feeling today?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#aaaacc"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <Button android:id="@+id/btnHappy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="😊"
+            android:textSize="24sp"
+            android:backgroundTint="#2a2a4a"
+            android:layout_margin="4dp"/>
+
+        <Button android:id="@+id/btnSad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="😢"
+            android:textSize="24sp"
+            android:backgroundTint="#2a2a4a"
+            android:layout_margin="4dp"/>
+
+        <Button android:id="@+id/btnTired"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="😴"
+            android:textSize="24sp"
+            android:backgroundTint="#2a2a4a"
+            android:layout_margin="4dp"/>
+
+        <Button android:id="@+id/btnAnxious"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="😰"
+            android:textSize="24sp"
+            android:backgroundTint="#2a2a4a"
+            android:layout_margin="4dp"/>
+
+        <Button android:id="@+id/btnCalm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="😌"
+            android:textSize="24sp"
+            android:backgroundTint="#2a2a4a"
+            android:layout_margin="4dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtSelectedMood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No mood selected"
+        android:textColor="#aaaacc"
+        android:textSize="13sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editNote"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:hint="Write about your day..."
+        android:textColor="#ffffff"
+        android:textColorHint="#666688"
+        android:background="#2a2a4a"
+        android:padding="12dp"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Entry"
+        android:backgroundTint="#e8b4f8"
+        android:textColor="#1a1a2e"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/entryContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="4dp"/>
+
+    </ScrollView>
+
+</LinearLayout>
