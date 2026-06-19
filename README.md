@@ -8,6 +8,10 @@ a cat spirit's egg through daily emotional interactions.
 This Mood Logger is the core mechanic prototype, built to validate the emotional check-in system before
 full game development.
 
+| Home Screen | Mood Selected | Entry History |
+|---|---|---|
+| ![Home](screen_home.png) | ![Mood](screen_mood_input.png) | ![History](screen_entry_history.png) |
+
 ## Features
 - Select a mood from 5 emoji states (Happy, Sad, Tired, Anxious, Calm)
 - Write a short daily reflection
