@@ -25,8 +25,6 @@ full game development.
 ## Status
 ✅ Mood Logger complete
 🟡 Pet state system — in progress
-🔲 Pixel art UI — planned
-🔲 Habit & step tracking — planned
 
 ## Part of
 **AnimaFelis** — Final Year Project (FYP)
